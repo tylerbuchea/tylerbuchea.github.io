@@ -44,16 +44,9 @@ ul, ol {
 	margin-left: 2em;
 }
 
-@media (max-width: 600px) {
-  .header h1 div {
-		display: none !important;
-	}
-	.navbar {
-		display: none !important;
-	}
-	.divider {
-		display: block;
-	}
+form input[type="email"] {
+	width: 100%;
+	max-width: 220px;
 }
 
 /**
@@ -168,4 +161,19 @@ ul, ol {
 
 .content-contact ul {
 	list-style: none;
+}
+
+/**
+ * Media Queries
+ */
+@media (max-width: 600px) {
+  .header h1 div {
+		display: none !important;
+	}
+	.navbar {
+		display: none !important;
+	}
+	.divider {
+		display: block !important;
+	}
 }
