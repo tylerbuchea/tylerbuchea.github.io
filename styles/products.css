@@ -1,12 +1,31 @@
 /**
  * Content Direct
  */
+.content-direct > p:first-child {
+
+}
+
+.content-direct h3 {
+	margin-left: 165px;
+}
+
 .content-direct img {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
 	float: left;
 	padding-right: 20px;
+	position: relative;
+	bottom: 50px;
+}
+
+@media (max-width: 755px) {
+	.content-direct img {
+		display: none;
+	}
+	.content-direct h3 {
+		margin-left: 0px;
+	}
 }
 
 .content-direct ol {
