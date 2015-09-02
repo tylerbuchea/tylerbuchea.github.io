@@ -1,33 +1,35 @@
 /**
  * Content Direct
  */
+
 .content-direct {
-	position: relative;
+
 }
 
 .about {
-	padding-right: 150px !important;
+	display: flex !important;
+	align-items: flex-start;
+	align-content: flex-start;
 }
 
-.content-direct img {
+.about-copy {
+	flex: 0 1 auto !important;
+	align-self: start;
+}
+
+.about .icon-avatar {
+	align-self: center;
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
-	float: right;
-	position: absolute;
-	top: 50%;
-	right: 0;
-	transform: translateY(-50%);
+	flex: 0 1 auto;
 	border: 3px solid #33C3F0;
 	padding: 5px;
 }
 
 @media (max-width: 755px) {
-	.content-direct img {
+	.about .icon-avatar {
 		display: none;
-	}
-	.about {
-		padding-right: 0 !important;
 	}
 }
 
