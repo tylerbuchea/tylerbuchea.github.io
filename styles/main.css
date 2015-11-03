@@ -156,11 +156,16 @@ form input[type="email"] {
 }
 
 .content-contact {
-
 }
 
 .content-contact ul {
 	list-style: none;
+}
+
+.content-contact .news-letter {
+  background: #fff;
+  padding: 0 20px;
+  display: inline-block;
 }
 
 /**
