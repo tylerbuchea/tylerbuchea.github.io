@@ -1,0 +1,12 @@
+.is-circle {
+  border-radius: 50%;
+}
+
+.has-padding {
+  padding-left: 50px;
+}
+
+.has-border {
+  border: 3px solid white;
+  padding: 3px;
+}
