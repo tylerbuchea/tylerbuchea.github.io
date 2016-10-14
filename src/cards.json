@@ -1,7 +1,7 @@
 [
   {
     "description": "It's a new kind of cruise that combines your love of travel with your desire to make a difference.",
-    "details": "I built the Journey Planner for Fathom Cruises. The Journey Planner is a web application that cruise passengers use to manage and lookup info for things like: personal details, shore excursions, luggage tags, boarding passes, other passengers on the same booking.",
+    "details": "I built the Journey Planner for Fathom Cruises. The Journey Planner is a web application that cruise passengers use to manage their personal details, book shore excursions, print luggage tags, and many other mission critical interactions. This application still handles thousands of traveler requests per day.",
     "tags": ["React", "Redux", "ES6", "Angular"],
     "heroImg": "img/portfolio-fathom.png",
     "logoImg": "http://placehold.it/64x64",
@@ -10,7 +10,7 @@
   },
   {
     "description": "Adjoy is the first ad network for games that allows both game developers and the advertiser, big or small, to live together in perfect harmony.",
-    "details": "Adjoy is a well funded startup looking to innovate in-game and other types of ads by integrating them into the experience. I was the lead API designer for this project and played a pivotal role in bringing their MVP product to production.",
+    "details": "I was the lead API designer for this project and played a pivotal role in bringing their MVP product to production. Adjoy is a well funded startup looking to innovate the game advertisement space by allowing developers to integrate ads into their games as achievements to unlock rather than as annoying banners that block game play.",
     "tags": ["Node", "Express", "Sails", "Mongo", "Heroku"],
     "heroImg": "img/portfolio-adjoy.png",
     "logoImg": "http://placehold.it/64x64",
@@ -19,7 +19,7 @@
   },
   {
     "description": "The only app that lets you add products with product images to your WooCommerce store!",
-    "details": "This is a personal product of mine. I saw a need for this app after working with clients who own an ecommerce store. This app has a pretty sizeable user base and it's still growing.",
+    "details": "I'm the creator and product owner of WooProducts. I saw a need for this app after working with clients who own an ecommerce store. WooProducts has a pretty sizeable user base and it is still growing.",
     "tags": ["Ionic", "OAuth 1.0a", "WooCommerce API"],
     "heroImg": "img/portfolio-wooproducts.png",
     "logoImg": "http://placehold.it/64x64",
@@ -28,7 +28,7 @@
   },
   {
     "description": "A set of UI components for building React Native apps.",
-    "details": "My brother and I created this set of React Native components to build our apps and we're happy that other people in the community like it and are using it too.",
+    "details": "Carbon Native is a UI library my brother and I created for React Native to build our mobile apps with. It's just a bonus that other people in the community like it and use it too.",
     "tags": ["React Native"],
     "heroImg": "img/portfolio-carbonnative.png",
     "logoImg": "http://placehold.it/64x64",
