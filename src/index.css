@@ -10,3 +10,8 @@
   border: 3px solid white;
   padding: 3px;
 }
+
+.no-decoration {
+  list-style: none !important;
+  text-decoration: none;
+}

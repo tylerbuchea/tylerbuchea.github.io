@@ -1,6 +1,8 @@
 [
   {
     "description": "It's a new kind of cruise that combines your love of travel with your desire to make a difference.",
+    "details": "I built the Journey Planner for Fathom Cruises. The Journey Planner is a web application that cruise passengers use to manage and lookup info for things like: personal details, shore excursions, luggage tags, boarding passes, other passengers on the same booking.",
+    "tags": ["React", "Redux", "ES6", "Angular"],
     "heroImg": "img/portfolio-fathom.png",
     "logoImg": "http://placehold.it/64x64",
     "title": "Fathom Cruises",
@@ -8,6 +10,8 @@
   },
   {
     "description": "Adjoy is the first ad network for games that allows both game developers and the advertiser, big or small, to live together in perfect harmony.",
+    "details": "Adjoy is a well funded startup looking to innovate in-game and other types of ads by integrating them into the experience. I was the lead API designer for this project and played a pivotal role in bringing their MVP product to production.",
+    "tags": ["Node", "Express", "Sails", "Mongo", "Heroku"],
     "heroImg": "img/portfolio-adjoy.png",
     "logoImg": "http://placehold.it/64x64",
     "title": "Adjoy",
@@ -15,6 +19,8 @@
   },
   {
     "description": "The only app that lets you add products with product images to your WooCommerce store!",
+    "details": "This is a personal product of mine. I saw a need for this app after working with clients who own an ecommerce store. This app has a pretty sizeable user base and it's still growing.",
+    "tags": ["Ionic", "OAuth 1.0a", "WooCommerce API"],
     "heroImg": "img/portfolio-wooproducts.png",
     "logoImg": "http://placehold.it/64x64",
     "title": "WooProducts",
@@ -22,6 +28,8 @@
   },
   {
     "description": "A set of UI components for building React Native apps.",
+    "details": "My brother and I created this set of React Native components to build our apps and we're happy that other people in the community like it and are using it too.",
+    "tags": ["React Native"],
     "heroImg": "img/portfolio-carbonnative.png",
     "logoImg": "http://placehold.it/64x64",
     "title": "Carbon Native",

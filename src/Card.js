@@ -25,7 +25,10 @@ export default class Card extends Component {
 
   render() {
     return (
-      <div className="card">
+      <div
+        className="card"
+        style={{ margin: '10px auto' }}
+      >
         <div className="card-image">
           <figure className="image is-5by3">
             <img src={this.props.heroImg} alt="" />
