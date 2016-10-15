@@ -79,13 +79,13 @@ export default class Header extends Component {
             <h2 className="title is-2">Let's Chat!</h2>
             <ul className="contact-list">
               <li>
-                <i className="fa fa-phone"></i> <a href="tel:5034278672" onClick={() => window.ga('send', 'event', 'Contact Request', 'Phone Number', 'Tried to contact me via phone')}>503 • 427 • 8672</a>
+                <i className="fa fa-calendar"></i> <a href="https://calendly.com/tylerbuchea" onClick={() => window.ga('send', 'event', 'Contact Request', 'Calendly', 'Tried to schedule a calendly meeting')}>Schedule a meeting</a>
               </li>
               <li>
-                <i className="fa fa-envelope"></i> <a href="mailto:tyler@buchea.com" target="_blank" onClick={() => window.ga('send', 'event', 'Contact Request', 'Email', 'Tried to contact me via email')}>Tyler@Buchea.com</a>
+                <i className="fa fa-twitter"></i> <a href="https://twitter.com/tylerbuchea" target="_blank" onClick={() => window.ga('send', 'event', 'Contact Request', 'Twitter', 'Tried to contact me via Twitter')}>Tweet at me</a>
               </li>
               <li>
-                <i className="fa fa-twitter"></i> <a href="https://twitter.com/tylerbuchea" target="_blank" onClick={() => window.ga('send', 'event', 'Contact Request', 'Twitter', 'Tried to contact me via Twitter')}> @TylerBuchea</a>
+                <i className="fa fa-envelope"></i> <a href="mailto:tyler@buchea.com" target="_blank" onClick={() => window.ga('send', 'event', 'Contact Request', 'Email', 'Tried to contact me via email')}>Send me an email</a>
               </li>
               <li>
                 <form action="//formspree.io/tyler@buchea.com" method="POST">

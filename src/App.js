@@ -42,8 +42,17 @@ export default class App extends Component {
       </div>
     </section>
 
+  renderFooter = () =>
+    <div className="container-restricted" style={{ paddingBottom: 30 }}>
+      <div className="has-text-centered">
+        <hr />
+        ©2016 Tyler Buchea LLC. All Rights Reserved.
+      </div>
+    </div>
+
   render() {
     const cards = this.renderCards(this.state.cards);
+    const footer = this.renderFooter();
     return (
       <div>
         <Modal
@@ -52,6 +61,7 @@ export default class App extends Component {
         />
         <Header />
         {cards}
+        {footer}
       </div>
     );
   }
