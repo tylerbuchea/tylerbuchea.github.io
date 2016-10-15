@@ -81,12 +81,14 @@ form input[type="email"] {
 .navbar-list {
   list-style: none;
   margin-bottom: 0;
+  display: flex;
 }
 
 .navbar-item {
   position: relative;
-  float: left;
   margin-bottom: 0;
+  flex: 1;
+  text-align: center;
 }
 
 .navbar-link {
