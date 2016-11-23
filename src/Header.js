@@ -45,14 +45,8 @@ export default class Header extends Component {
                 </li>
 
                 <li className="navbar-item">
-                  <a className="icon navbar-link" href="https://itunes.apple.com/us/developer/tyler-buchea/id1039566131">
-                    <i className="fa fa-apple"></i>
-                  </a>
-                </li>
-
-                <li className="navbar-item">
-                  <a className="icon navbar-link" href="https://play.google.com/store/apps/developer?id=Tyler+Buchea+LLC">
-                    <i className="fa fa-android"></i>
+                  <a className="icon navbar-link" href="https://angel.co/tyler-buchea">
+                    <i className="fa fa-angellist"></i>
                   </a>
                 </li>
 
@@ -65,6 +59,18 @@ export default class Header extends Component {
                 <li className="navbar-item">
                   <a className="icon navbar-link" href="https://www.linkedin.com/in/tyler-buchea-b3a43376">
                     <i className="fa fa-linkedin"></i>
+                  </a>
+                </li>
+
+                <li className="navbar-item">
+                  <a className="icon navbar-link" href="https://itunes.apple.com/us/developer/tyler-buchea/id1039566131">
+                    <i className="fa fa-apple"></i>
+                  </a>
+                </li>
+
+                <li className="navbar-item">
+                  <a className="icon navbar-link" href="https://play.google.com/store/apps/developer?id=Tyler+Buchea+LLC">
+                    <i className="fa fa-android"></i>
                   </a>
                 </li>
 
