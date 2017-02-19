@@ -46,7 +46,7 @@ export default class App extends Component {
     <div className="container-restricted" style={{ paddingBottom: 30 }}>
       <div className="has-text-centered">
         <hr />
-        ©2016 Tyler Buchea LLC. All Rights Reserved.
+        ©2017 Tyler Buchea. All Rights Reserved.
       </div>
     </div>
 
