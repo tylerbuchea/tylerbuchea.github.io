@@ -176,9 +176,9 @@ export default class Header extends Component {
                 <h2 className="title is-2">Howdy,</h2>
                 <p>
                   I'm Tyler Buchea, I'm a full stack JavaScript developer
-                  working and living in the Portland area. I like React, React
-                  Native, Redux, Express, NodeJS, Docker, and Kubernetes. Add me
-                  on Snapchat: <strong>tylerbuchea</strong>.
+                  working and living in Portland. I like React, React Native,
+                  Redux, Express, NodeJS, Docker, and Kubernetes. Add me on
+                  Snapchat: <strong>tylerbuchea</strong>.
                 </p>
               </div>
               <img
