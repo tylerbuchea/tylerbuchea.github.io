@@ -1,0 +1,5 @@
+#!/bin/bash
+
+filename=${1}
+
+convert $filename.png -resize 600 -background "#eee" -flatten -crop 600x330+0+0 $filename.jpg
