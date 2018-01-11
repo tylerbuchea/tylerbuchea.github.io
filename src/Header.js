@@ -182,7 +182,7 @@ export default class Header extends Component {
                   working and living in Portland. I like React, React Native,
                   Redux, NodeJS, and Docker. Add me on Instagram:{' '}
                   <a href="https://www.instagram.com/tylerbuchea/">
-                    tylerbuchea
+                    @tylerbuchea
                   </a>.
                 </p>
               </div>
