@@ -1,16 +1,12 @@
-import React, {
-  Component,
-  PropTypes,
-} from 'react';
+import React, { Component, PropTypes } from 'react';
 
 export default class Modal extends Component {
-
-  static defaultProps = {}
+  static defaultProps = {};
 
   static propTypes = {
     close: PropTypes.func,
     modal: PropTypes.object,
-  }
+  };
 
   render() {
     if (!this.props.modal) {
@@ -18,7 +14,7 @@ export default class Modal extends Component {
     }
     return (
       <div className="modal is-active">
-        <div className="modal-background"></div>
+        <div className="modal-background" />
         <div className="modal-content">
           <div className="modal-card">
             <section className="modal-card-body">
@@ -35,23 +31,19 @@ export default class Modal extends Component {
                   <div className="media-content">
                     <p className="title is-5">{this.props.modal.title}</p>
                     <p className="subtitle is-6">
-                      <a href={this.props.modal.url}>{this.props.modal.url}</a>
+                      <a href={this.props.modal.url}>
+                        {this.props.modal.urlText || this.props.modal.url}
+                      </a>
                     </p>
                   </div>
                 </div>
-                <div className="content">
-                  {this.props.modal.description}
-                </div>
+                <div className="content">{this.props.modal.description}</div>
               </div>
             </section>
           </div>
         </div>
-        <button
-          className="modal-close"
-          onClick={() => this.props.close()}
-        ></button>
+        <button className="modal-close" onClick={() => this.props.close()} />
       </div>
     );
   }
-
 }
