@@ -57,7 +57,8 @@
     "heroImg": "img/portfolio-bitcoinviz@2x.jpg",
     "logoImg": "http://placehold.it/64x64",
     "title": "AWS Viz",
-    "url": "aws-0003-viz.firebaseapp.com"
+    "url": "aws-0003-viz.firebaseapp.com",
+    "urlText": "firebaseapp.com"
   },
   {
     "description":
