@@ -14,7 +14,7 @@ export default class Modal extends Component {
     }
     return (
       <div className="modal is-active">
-        <div className="modal-background" />
+        <div className="modal-background" onClick={() => this.props.close()} />
         <div className="modal-content">
           <div className="modal-card">
             <section className="modal-card-body">
