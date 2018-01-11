@@ -2,24 +2,33 @@
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v9/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  src: local('Raleway Light'), local('Raleway-Light'),
+    url(https://fonts.gstatic.com/s/raleway/v9/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2)
+      format('woff2');
+  unicode-range: U+0000-00ff, U+0131, U+0152-0153, U+02c6, U+02da, U+02dc,
+    U+2000-206f, U+2074, U+20ac, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  src: local('Raleway'),
+    url(https://fonts.gstatic.com/s/raleway/v9/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2)
+      format('woff2');
+  unicode-range: U+0000-00ff, U+0131, U+0152-0153, U+02c6, U+02da, U+02dc,
+    U+2000-206f, U+2074, U+20ac, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 600;
-  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(https://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
+    url(https://fonts.gstatic.com/s/raleway/v9/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2)
+      format('woff2');
+  unicode-range: U+0000-00ff, U+0131, U+0152-0153, U+02c6, U+02da, U+02dc,
+    U+2000-206f, U+2074, U+20ac, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 html {
@@ -27,40 +36,52 @@ html {
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
+  transition: transform 0.2s;
 }
 
-ul, ol {
-	margin-left: 2em;
+a:active,
+a:hover {
+  border-color: #1eaedb !important;
 }
 
-form input[type="email"] {
-	width: 100%;
-	max-width: 220px;
+a:visited {
+  color: #1eaedb !important;
+}
+
+ul,
+ol {
+  margin-left: 2em;
+}
+
+form input[type='email'] {
+  width: 100%;
+  max-width: 220px;
 }
 
 .divider {
-	display: none;
+  display: none;
 }
 
 .header {
-	margin-top: 2em;
+  margin-top: 2em;
 }
 
 .header h1 div {
-	font-size: 22px;
-	display: inline-block;
+  font-size: 22px;
+  display: inline-block;
 }
 
 .navbar {
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .navbar + .docs-section {
   border-top-width: 0;
 }
 
-.navbar, .navbar-spacer {
+.navbar,
+.navbar-spacer {
   display: block;
   width: 100%;
   height: 6.5rem;
@@ -94,7 +115,7 @@ form input[type="email"] {
 .navbar-link {
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   margin-right: 35px;
   text-decoration: none;
   line-height: 6.5rem;
@@ -102,7 +123,7 @@ form input[type="email"] {
 }
 
 .navbar-link.active {
-  color: #33C3F0;
+  color: #33c3f0;
 }
 
 .has-docked-nav .navbar {
@@ -120,7 +141,7 @@ form input[type="email"] {
 }
 
 .content-contact ul {
-	list-style: none;
+  list-style: none;
 }
 
 .content-contact .news-letter {
@@ -131,58 +152,61 @@ form input[type="email"] {
 
 @media (max-width: 600px) {
   .header h1 div {
-		display: none !important;
-	}
-	.navbar {
-		display: none !important;
-	}
-	.divider {
-		display: block !important;
-	}
+    display: none !important;
+  }
+  .navbar {
+    display: none !important;
+  }
+  .divider {
+    display: block !important;
+  }
 }
 
 .about {
-	display: flex !important;
-	align-items: flex-start;
-	align-content: flex-start;
+  display: flex !important;
+  align-items: flex-start;
+  align-content: flex-start;
 }
 
 .about-copy {
-	flex: 0 1 auto !important;
-	align-self: start;
+  flex: 0 1 auto !important;
+  align-self: start;
 }
 
 .about .icon-avatar {
-	align-self: center;
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-	flex: 0 0 auto;
-	border: 3px solid #33C3F0;
-	padding: 5px;
+  align-self: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  flex: 0 0 auto;
+  border: 3px solid #33c3f0;
+  padding: 5px;
 }
 
 @media (max-width: 755px) {
-	.about .icon-avatar {
-		display: none;
-	}
+  .about .icon-avatar {
+    display: none;
+  }
 }
 
 .content-direct ol {
-	display: block;
+  display: block;
 }
 
-.fa-disabled, .fa-disabled:hover, .fa-disabled:active {
-	color: #aaa;
+.fa-disabled,
+.fa-disabled:hover,
+.fa-disabled:active {
+  color: #aaa;
 }
 
-.content-item, .header {
-	padding-left: 20px;
-	padding-right: 20px;
+.content-item,
+.header {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media (max-width: 1010px) {
   .content-item.product {
-  	padding: 0 !important;
+    padding: 0 !important;
   }
 }

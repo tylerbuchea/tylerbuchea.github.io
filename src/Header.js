@@ -116,7 +116,8 @@ export default class Header extends Component {
                       'Contact Request',
                       'Calendly',
                       'Tried to schedule a calendly meeting'
-                    )}
+                    )
+                  }
                 >
                   Schedule a meeting
                 </a>
@@ -133,7 +134,8 @@ export default class Header extends Component {
                       'Contact Request',
                       'Twitter',
                       'Tried to contact me via Twitter'
-                    )}
+                    )
+                  }
                 >
                   Tweet at me
                 </a>
@@ -150,7 +152,8 @@ export default class Header extends Component {
                       'Contact Request',
                       'Email',
                       'Tried to contact me via email'
-                    )}
+                    )
+                  }
                 >
                   Send me an email
                 </a>
@@ -177,8 +180,10 @@ export default class Header extends Component {
                 <p>
                   I'm Tyler Buchea, I'm a full stack JavaScript developer
                   working and living in Portland. I like React, React Native,
-                  Redux, Express, NodeJS, Docker, and Kubernetes. Add me on
-                  Snapchat: <strong>tylerbuchea</strong>.
+                  Redux, NodeJS, and Docker. Add me on Instagram:{' '}
+                  <a href="https://www.instagram.com/tylerbuchea/">
+                    tylerbuchea
+                  </a>.
                 </p>
               </div>
               <img
