@@ -47,7 +47,8 @@
     "heroImg": "img/portfolio-droneracing@2x.jpg",
     "logoImg": "http://placehold.it/64x64",
     "title": "Intel® Drone Racing",
-    "url": "droneracing.intel.com"
+    "urlText": "droneracing.intel.com",
+    "url": "https://droneracing.intel.com"
   },
   {
     "description": "An awesome WebGL visualization.",
@@ -57,7 +58,7 @@
     "heroImg": "img/portfolio-bitcoinviz@2x.jpg",
     "logoImg": "http://placehold.it/64x64",
     "title": "AWS Viz",
-    "url": "aws-0003-viz.firebaseapp.com",
+    "url": "https://aws-0003-viz.firebaseapp.com",
     "urlText": "firebaseapp.com"
   },
   {
@@ -69,7 +70,8 @@
     "heroImg": "img/portfolio-fathom@2x.jpg",
     "logoImg": "http://placehold.it/64x64",
     "title": "Fathom Cruises",
-    "url": "fathom.org"
+    "urlText": "fathom.org",
+    "url": "https://fathom.org"
   },
   {
     "description":
@@ -80,7 +82,8 @@
     "heroImg": "img/portfolio-adjoy@2x.jpg",
     "logoImg": "http://placehold.it/64x64",
     "title": "Adjoy",
-    "url": "adjoy.co"
+    "url": "http://adjoy.co",
+    "urlText": "adjoy.co"
   },
   {
     "description":
@@ -91,7 +94,8 @@
     "heroImg": "img/portfolio-wooproducts@2x.jpg",
     "logoImg": "http://placehold.it/64x64",
     "title": "WooProducts",
-    "url": "wooproducts.co"
+    "urlText": "wooproducts.co",
+    "url": "http://wooproducts.co"
   },
   {
     "description": "A set of UI components for building React Native apps.",
@@ -101,6 +105,7 @@
     "heroImg": "img/portfolio-carbonnative@2x.jpg",
     "logoImg": "http://placehold.it/64x64",
     "title": "Carbon Native",
-    "url": "getcarbonnative.com"
+    "urlText": "getcarbonnative.com",
+    "url": "http://getcarbonnative.com"
   }
 ]

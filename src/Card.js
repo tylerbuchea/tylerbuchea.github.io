@@ -34,7 +34,7 @@ export default class Card extends Component {
             <div className="media-content">
               <p className="title is-5">{this.props.title}</p>
               <p className="subtitle is-6">
-                <a href={`http://${this.props.url}`}>
+                <a href={`${this.props.url}`}>
                   {this.props.urlText || this.props.url}
                 </a>
               </p>
