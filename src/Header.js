@@ -30,7 +30,7 @@ export default class Header extends Component {
                     className="icon navbar-link"
                     href="http://blog.tylerbuchea.com"
                   >
-                    <i className="fa fa-pencil" />
+                    <i className="fa fa-pencil-alt" />
                   </a>
                 </li>
 
@@ -39,7 +39,25 @@ export default class Header extends Component {
                     className="icon navbar-link"
                     href="https://github.com/tylerbuchea"
                   >
-                    <i className="fa fa-github" />
+                    <i className="fab fa-github" />
+                  </a>
+                </li>
+
+                <li className="navbar-item">
+                  <a
+                    className="icon navbar-link"
+                    href="https://anchor.fm/remote-guys-night"
+                  >
+                    <i className="fa fa-podcast" />
+                  </a>
+                </li>
+
+                <li className="navbar-item">
+                  <a
+                    className="icon navbar-link"
+                    href="https://www.twitch.tv/tylerbuchea"
+                  >
+                    <i className="fab fa-twitch" />
                   </a>
                 </li>
 
@@ -48,16 +66,7 @@ export default class Header extends Component {
                     className="icon navbar-link"
                     href="https://twitter.com/tylerbuchea"
                   >
-                    <i className="fa fa-twitter" />
-                  </a>
-                </li>
-
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://twitch.com/tylerbuchea"
-                  >
-                    <i className="fa fa-twitch" />
+                    <i className="fab fa-twitter" />
                   </a>
                 </li>
 
@@ -66,7 +75,7 @@ export default class Header extends Component {
                     className="icon navbar-link"
                     href="https://itunes.apple.com/us/developer/tyler-buchea/id1039566131"
                   >
-                    <i className="fa fa-apple" />
+                    <i className="fab fa-apple" />
                   </a>
                 </li>
 
@@ -75,7 +84,7 @@ export default class Header extends Component {
                     className="icon navbar-link"
                     href="https://play.google.com/store/apps/developer?id=Tyler+Buchea+LLC"
                   >
-                    <i className="fa fa-android" />
+                    <i className="fab fa-android" />
                   </a>
                 </li>
 
@@ -84,7 +93,7 @@ export default class Header extends Component {
                     className="icon navbar-link"
                     href="https://angel.co/tyler-buchea"
                   >
-                    <i className="fa fa-angellist" />
+                    <i className="fab fa-angellist" />
                   </a>
                 </li>
 
@@ -93,7 +102,7 @@ export default class Header extends Component {
                     className="icon navbar-link"
                     href="https://stackoverflow.com/jobs/cv/employer/321320"
                   >
-                    <i className="fa fa-stack-overflow" />
+                    <i className="fab fa-stack-overflow" />
                   </a>
                 </li>
 
@@ -102,7 +111,7 @@ export default class Header extends Component {
                     className="icon navbar-link"
                     href="https://www.linkedin.com/in/tyler-buchea-b3a43376"
                   >
-                    <i className="fa fa-linkedin" />
+                    <i className="fab fa-linkedin" />
                   </a>
                 </li>
 
@@ -116,7 +125,7 @@ export default class Header extends Component {
             <h2 className="title is-2">Let's Chat!</h2>
             <ul className="contact-list">
               <li>
-                <i className="fa fa-calendar" />{' '}
+                <i className="fa fa-calendar-alt" />{' '}
                 <a
                   href="https://calendly.com/tylerbuchea"
                   onClick={() =>
@@ -133,7 +142,7 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
-                <i className="fa fa-twitter" />{' '}
+                <i className="fab fa-twitter" />{' '}
                 <a
                   href="https://twitter.com/tylerbuchea"
                   target="_blank"

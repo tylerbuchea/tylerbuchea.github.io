@@ -21,7 +21,7 @@ export default class Contact extends Component {
               <div className="card-content">
                 <ul className="contact-list no-decoration">
                   <li style={styles.li}>
-                    <i className="fa fa-phone"></i>
+                    <i className="fa far-phone"></i>
                     &nbsp;
                     <a
                       href="tel:5034278672"
@@ -31,7 +31,7 @@ export default class Contact extends Component {
                     </a>
                   </li>
                   <li style={styles.li}>
-                    <i className="fa fa-envelope"></i>
+                    <i className="fa fa-email"></i>
                     &nbsp;
                     <a
                       href="mailto:tyler@buchea.com"
@@ -42,7 +42,7 @@ export default class Contact extends Component {
                     </a>
                   </li>
                   <li style={styles.li}>
-                    <i className="fa fa-twitter"></i>
+                    <i className="fab fa-twitter"></i>
                     &nbsp;
                     <a
                       href="https://twitter.com/tylerbuchea"
