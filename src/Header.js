@@ -37,27 +37,9 @@ export default class Header extends Component {
                 <li className="navbar-item">
                   <a
                     className="icon navbar-link"
-                    href="https://stackoverflow.com/jobs/cv/employer/321320"
-                  >
-                    <i className="fa fa-stack-overflow" />
-                  </a>
-                </li>
-
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
                     href="https://github.com/tylerbuchea"
                   >
                     <i className="fa fa-github" />
-                  </a>
-                </li>
-
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://angel.co/tyler-buchea"
-                  >
-                    <i className="fa fa-angellist" />
                   </a>
                 </li>
 
@@ -73,9 +55,9 @@ export default class Header extends Component {
                 <li className="navbar-item">
                   <a
                     className="icon navbar-link"
-                    href="https://www.linkedin.com/in/tyler-buchea-b3a43376"
+                    href="https://twitch.com/tylerbuchea"
                   >
-                    <i className="fa fa-linkedin" />
+                    <i className="fa fa-twitch" />
                   </a>
                 </li>
 
@@ -96,6 +78,34 @@ export default class Header extends Component {
                     <i className="fa fa-android" />
                   </a>
                 </li>
+
+                <li className="navbar-item">
+                  <a
+                    className="icon navbar-link"
+                    href="https://angel.co/tyler-buchea"
+                  >
+                    <i className="fa fa-angellist" />
+                  </a>
+                </li>
+
+                <li className="navbar-item">
+                  <a
+                    className="icon navbar-link"
+                    href="https://stackoverflow.com/jobs/cv/employer/321320"
+                  >
+                    <i className="fa fa-stack-overflow" />
+                  </a>
+                </li>
+
+                <li className="navbar-item">
+                  <a
+                    className="icon navbar-link"
+                    href="https://www.linkedin.com/in/tyler-buchea-b3a43376"
+                  >
+                    <i className="fa fa-linkedin" />
+                  </a>
+                </li>
+
               </ul>
             </div>
           </nav>
