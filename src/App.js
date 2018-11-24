@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import 'bulma/css/bulma.css';
 import './index.css';
 import './skeleton.css';
+import './dark-theme.css';
 import cards from './cards.json';
 import Card from './Card';
 import Header from './Header';
