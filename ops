@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# These commands take this form
+# ./ops [script] [option]
+
+script=${1}
+option=${2}
+
+if [ -z $script ] ; then
+  echo "please enter a command after ./ops"
+
+elif [ $script == "setup" ] ; then
+  rm -rf node_modules
+  yarn install
+
+elif [ $script == "start" ] ; then
+  yarn start
+
+elif [ $script == "test" ] ; then
+  yarn test
+
+elif [ $script == "build" ] ; then
+  yarn build
+
+elif [ $script == "ship" ] ; then
+  yarn build
+  git push origin `git subtree split --prefix build 2016`:master --force
+  # git subtree push --prefix build origin master
+
+fi
+
+
+

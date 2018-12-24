@@ -70,10 +70,7 @@ input[type='url'],
 select,
 textarea {
   background-color: #17181c;
-  border-top-color: #3c3c3c;
-  border-right-color: #3c3c3c;
-  border-bottom-color: #3c3c3c;
-  border-left-color: #3c3c3c;
+  border: 1px solid #3c3c3c;
   box-shadow: none;
 }
 
@@ -85,10 +82,7 @@ input[type='submit'] {
   color: #c8c5bf;
   text-decoration-color: initial;
   background-color: transparent;
-  border-top-color: #414141;
-  border-right-color: #414141;
-  border-bottom-color: #414141;
-  border-left-color: #414141;
+  border: 1px solid #414141;
 }
 
 .button:focus,
@@ -102,10 +96,7 @@ input[type='reset']:hover,
 input[type='submit']:focus,
 input[type='submit']:hover {
   color: #d5d2cd;
-  border-top-color: #4b4b4b;
-  border-right-color: #4b4b4b;
-  border-bottom-color: #4b4b4b;
-  border-left-color: #4b4b4b;
+  border-color: #4b4b4b;
   outline-color: initial;
 }
 
@@ -138,8 +129,5 @@ hr {
 }
 
 .about .icon-avatar {
-  border-top-color: #0d8ab1;
-  border-right-color: #0d8ab1;
-  border-bottom-color: #0d8ab1;
-  border-left-color: #0d8ab1;
+  border: 3px solid #0d8ab1;
 }

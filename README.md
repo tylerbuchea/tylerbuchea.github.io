@@ -1,28 +1,28 @@
 # Tyler Buchea
 
-**My Personal Website**
+**[https://tylerbuchea.com](https://tylerbuchea.com)**
 
 ## Setup
 
 ```bash
-npm install
+./ops setup
 ```
 
 ## Develop
 
 ```bash
-npm start
+./ops start
 ```
 
 ## Test
 
 ```bash
-# none
+# no tests yet
+./ops test
 ```
 
 ## Deploy
 
 ```bash
-npm run build
-./deploy
+./ops ship
 ```
