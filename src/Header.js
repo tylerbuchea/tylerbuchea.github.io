@@ -114,7 +114,6 @@ export default class Header extends Component {
                     <i className="fab fa-linkedin" />
                   </a>
                 </li>
-
               </ul>
             </div>
           </nav>
@@ -196,13 +195,14 @@ export default class Header extends Component {
             <div className="about">
               <div className="about-copy">
                 <h2 className="title is-2">Howdy,</h2>
-                <p>
-                  I'm Tyler Buchea, I'm a full stack JavaScript developer
-                  working and living in Portland. I like React, React Native,
-                  Redux, NodeJS, and Docker. Add me on Instagram:{' '}
+                <p style={{ paddingRight: 5 }}>
+                  I'm a full stack JavaScript developer living in Portland and
+                  working remotely. I like React, React Native, GraphQL, and
+                  NodeJS. Add me on Instagram:{' '}
                   <a href="https://www.instagram.com/tylerbuchea/">
                     @tylerbuchea
-                  </a>.
+                  </a>
+                  .
                 </p>
               </div>
               <img
