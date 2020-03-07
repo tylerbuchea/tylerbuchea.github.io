@@ -23,99 +23,107 @@ export default class Header extends Component {
           <hr className="divider" />
 
           <nav className="navbar">
-            <div className="container">
-              <ul className="navbar-list">
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="http://blog.tylerbuchea.com"
-                  >
-                    <i className="fa fa-pencil-alt" />
-                  </a>
-                </li>
+            <ul className="navbar-list">
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="http://blog.tylerbuchea.com"
+                >
+                  <i className="fa fa-pencil-alt" />
+                </a>
+              </li>
 
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://github.com/tylerbuchea"
-                  >
-                    <i className="fab fa-github" />
-                  </a>
-                </li>
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="https://github.com/tylerbuchea"
+                >
+                  <i className="fab fa-github" />
+                </a>
+              </li>
 
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://anchor.fm/remote-guys-night"
-                  >
-                    <i className="fa fa-podcast" />
-                  </a>
-                </li>
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="https://www.youtube.com/channel/UCjGfHpKjVrp7MZ45hiwgD_A"
+                >
+                  <i className="fab fa-youtube" />
+                </a>
+              </li>
 
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://www.twitch.tv/tylerbuchea"
-                  >
-                    <i className="fab fa-twitch" />
-                  </a>
-                </li>
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="https://anchor.fm/remote-guys-night"
+                >
+                  <i className="fa fa-podcast" />
+                </a>
+              </li>
 
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://twitter.com/tylerbuchea"
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                </li>
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="https://twitter.com/tylerbuchea"
+                >
+                  <i className="fab fa-twitter" />
+                </a>
+              </li>
 
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://itunes.apple.com/us/developer/tyler-buchea/id1039566131"
-                  >
-                    <i className="fab fa-apple" />
-                  </a>
-                </li>
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="https://itunes.apple.com/us/developer/tyler-buchea/id1039566131"
+                >
+                  <i className="fab fa-apple" />
+                </a>
+              </li>
 
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://play.google.com/store/apps/developer?id=Tyler+Buchea+LLC"
-                  >
-                    <i className="fab fa-android" />
-                  </a>
-                </li>
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="https://play.google.com/store/apps/developer?id=Tyler+Buchea+LLC"
+                >
+                  <i className="fab fa-android" />
+                </a>
+              </li>
 
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://angel.co/tyler-buchea"
-                  >
-                    <i className="fab fa-angellist" />
-                  </a>
-                </li>
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="https://angel.co/tyler-buchea"
+                >
+                  <i className="fab fa-angellist" />
+                </a>
+              </li>
 
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://stackoverflow.com/jobs/cv/employer/321320"
-                  >
-                    <i className="fab fa-stack-overflow" />
-                  </a>
-                </li>
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="https://stackoverflow.com/jobs/cv/employer/321320"
+                >
+                  <i className="fab fa-stack-overflow" />
+                </a>
+              </li>
 
-                <li className="navbar-item">
-                  <a
-                    className="icon navbar-link"
-                    href="https://www.linkedin.com/in/tyler-buchea-b3a43376"
-                  >
-                    <i className="fab fa-linkedin" />
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <li className="navbar-item">
+                <a
+                  target="_blank"
+                  className="icon navbar-link"
+                  href="https://www.linkedin.com/in/tyler-buchea-b3a43376"
+                >
+                  <i className="fab fa-linkedin" />
+                </a>
+              </li>
+            </ul>
           </nav>
         </header>
 
@@ -127,6 +135,7 @@ export default class Header extends Component {
                 <i className="fa fa-calendar-alt" />{' '}
                 <a
                   href="https://calendly.com/tylerbuchea"
+                  target="_blank"
                   onClick={() =>
                     window.ga(
                       'send',
@@ -199,14 +208,14 @@ export default class Header extends Component {
                   I'm a full stack JavaScript developer living in Portland and
                   working remotely. I like React, React Native, GraphQL, and
                   NodeJS. Add me on Instagram:{' '}
-                  <a href="https://www.instagram.com/tylerbuchea/">
+                  <a target="_blank" href="https://www.instagram.com/tylerbuchea/">
                     @tylerbuchea
                   </a>
                   .
                 </p>
               </div>
               <img
-                src="img/icon-avatar.jpg"
+                src="img/new_avatar_square_optimized.jpg"
                 className="icon-avatar"
                 role="presentation"
               />

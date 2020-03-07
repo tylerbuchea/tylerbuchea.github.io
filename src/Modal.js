@@ -31,7 +31,7 @@ export default class Modal extends Component {
                   <div className="media-content">
                     <p className="title is-5">{this.props.modal.title}</p>
                     <p className="subtitle is-6">
-                      <a href={this.props.modal.url}>
+                      <a href={this.props.modal.url} className={!!this.props.modal.disabled && "disabled"}>
                         {this.props.modal.urlText || this.props.modal.url}
                       </a>
                     </p>

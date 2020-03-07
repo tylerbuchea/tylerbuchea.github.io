@@ -2,4 +2,9 @@
 
 filename=${1}
 
-convert $filename.png -resize 600 -background "#eee" -flatten -crop 600x330+0+0 $filename.jpg
+convert $filename.png \
+-resize 500 \
+-gravity center \
+-background "#eee" \
+-extent 600x330+0+0  \
+$filename.jpg

@@ -3,7 +3,7 @@ import 'bulma/css/bulma.css';
 import './index.css';
 import './skeleton.css';
 import './dark-theme.css';
-import cards from './cards.json';
+import cards from './cards';
 import Card from './Card';
 import Header from './Header';
 import Modal from './Modal';
@@ -42,7 +42,7 @@ export default class App extends Component {
     <div className="container-restricted" style={{ paddingBottom: 30 }}>
       <div className="has-text-centered">
         <hr />
-        ©2018 Tyler Buchea. All Rights Reserved.
+        ©{new Date().getFullYear()} Tyler Buchea. All Rights Reserved.
       </div>
     </div>
   );

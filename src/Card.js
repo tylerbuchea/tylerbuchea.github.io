@@ -10,6 +10,7 @@ export default class Card extends Component {
     logoImg: 'http://placehold.it/64x64',
     title: 'John Smith',
     url: 'example.com',
+    disabled: false,
   };
 
   static propTypes = {
@@ -19,6 +20,7 @@ export default class Card extends Component {
     logoImg: PropTypes.string,
     title: PropTypes.string,
     url: PropTypes.string,
+    disabled: PropTypes.bool,
   };
 
   render() {
@@ -34,7 +36,7 @@ export default class Card extends Component {
             <div className="media-content">
               <p className="title is-5">{this.props.title}</p>
               <p className="subtitle is-6">
-                <a href={`${this.props.url}`}>
+                <a href={`${this.props.url}`} target="_blank" className={!!this.props.disabled && "disabled"}>
                   {this.props.urlText || this.props.url}
                 </a>
               </p>
