@@ -36,8 +36,7 @@ export default [
     "logoImg": "http://placehold.it/64x64",
     "title": "Intel® Drone Racing",
     "urlText": "droneracing.intel.com",
-    "disabled": true,
-    "url": "https://droneracing.intel.com"
+    "url": "https://simplecore.quangostaging.com/inteldroneracing/"
   },
   {
     "description": "An awesome WebGL visualization.",

@@ -15,7 +15,7 @@ export default class Header extends Component {
       <div className="container-restricted">
         <header className="header row">
           <h1>
-            <a href="http://tylerbuchea.com">Tyler Buchea</a>{' '}
+            <a href="https://tylerbuchea.com">Tyler Buchea</a>{' '}
             <div>[ boo • shay ]</div>
           </h1>
           <h2>Software Engineer</h2>
