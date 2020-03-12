@@ -155,18 +155,6 @@ export default class Header extends React.Component {
                   Send me an email
                 </a>
               </li>
-              <li>
-                <form action="//formspree.io/tyler@buchea.com" method="POST">
-                  <input
-                    type="email"
-                    name="_replyto"
-                    placeholder="your-email@example.com"
-                    style={{ fontSize: 12.5 }}
-                  />
-                  &nbsp;
-                  <input type="submit" value="SEND" />
-                </form>
-              </li>
             </ul>
           </article>
 
