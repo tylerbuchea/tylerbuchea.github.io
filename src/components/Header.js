@@ -163,9 +163,9 @@ export default class Header extends React.Component {
               <div className="about-copy">
                 <h2 className="title is-2">Howdy,</h2>
                 <p style={{ paddingRight: 5 }}>
-                  I'm a full stack JavaScript developer living in Portland and
+                  I'm a full-stack JavaScript developer living in Portland and
                   working remotely. I like React, React Native, GraphQL, and
-                  NodeJS. Add me on Instagram:{' '}
+                  NodeJS. Add me on Instagram{' '}
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tylerbuchea/">
                     @tylerbuchea
                   </a>
