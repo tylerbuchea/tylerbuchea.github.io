@@ -45,8 +45,8 @@ export default [
     "heroImg": "img/portfolio-bitcoinviz@2x.jpg",
     "logoImg": "http://placehold.it/64x64",
     "title": "AWS Viz",
-    "url": "https://aws-0003-viz.firebaseapp.com",
-    "urlText": "firebaseapp.com"
+    "url": "https://tylerbuchea.com/aws-viz-web/",
+    "urlText": "tylerbuchea.com"
   },
   {
     "description": "The first ad network for games that allows developers and advertiser to live together in harmony.",

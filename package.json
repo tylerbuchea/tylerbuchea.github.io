@@ -12,7 +12,7 @@
     "react-helmet": "^5.2.1"
   },
   "scripts": {
-    "dev": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build"
   }
 }
