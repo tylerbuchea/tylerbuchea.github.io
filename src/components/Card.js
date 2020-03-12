@@ -1,6 +1,7 @@
-import React, { Component, PropTypes } from 'react';
+import React from 'react';
+import PropTypes from "prop-types"
 
-export default class Card extends Component {
+export default class Card extends React.Component {
   static defaultProps = {
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.',
@@ -25,7 +26,7 @@ export default class Card extends Component {
 
   render() {
     return (
-      <div className="card" style={{ margin: '10px auto' }}>
+      <div className="card">
         <div className="card-image">
           <figure className="image is-5by3">
             <img src={this.props.heroImg} alt="" />
@@ -36,7 +37,7 @@ export default class Card extends Component {
             <div className="media-content">
               <p className="title is-5">{this.props.title}</p>
               <p className="subtitle is-6">
-                <a href={`${this.props.url}`} target="_blank" className={!!this.props.disabled && "disabled"}>
+                <a href={`${this.props.url}`} target="_blank" rel="noopener noreferrer" className={!!this.props.disabled ? "disabled" : ""}>
                   {this.props.urlText || this.props.url}
                 </a>
               </p>

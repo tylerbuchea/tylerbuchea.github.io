@@ -24,8 +24,7 @@ elif [ $script == "build" ] ; then
 
 elif [ $script == "ship" ] ; then
   yarn build
-  git push origin `git subtree split --prefix build 2016`:master --force
-  # git subtree push --prefix build origin master
+  git push origin `git subtree split --prefix public 2016`:master --force\
 
 fi
 

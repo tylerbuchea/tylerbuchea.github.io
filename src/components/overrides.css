@@ -38,6 +38,7 @@ html {
 a {
   text-decoration: none;
   transition: transform 0.2s;
+  border-bottom: 1px solid transparent !important;
 }
 
 a:active,
@@ -91,7 +92,6 @@ form input[type='email'] {
 .navbar-spacer {
   display: block;
   width: 100%;
-  background: #fff;
   z-index: 99;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
@@ -110,13 +110,18 @@ form input[type='email'] {
   margin: 0px;
   display: flex;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   padding: 10px 0px;
 }
 
-@media (max-width: 1000px) {
+.navbar-list a:active,
+.navbar-list a:hover {
+  border-color: transparent !important;
+}
+
+@media (max-width: 800px) {
   .navbar-list {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -221,5 +226,56 @@ form input[type='email'] {
 @media (max-width: 1010px) {
   .content-item.product {
     padding: 0 !important;
+  }
+}
+
+.modal-close {
+  position: absolute !important;
+  right: 10px !important;
+  top: 10px !important;
+}
+
+.modal-content {
+  margin: 0px !important;
+}
+
+.modal-card-body {
+  position: relative !important;
+}
+
+@media (max-width: 769px) {
+  .modal-content {
+    height: 100vh !important;
+    max-height: 100vh !important;
+  }
+  .modal-card-body {
+    height: 100vh !important;
+    max-height: 100vh !important;
+  }
+}
+
+.card {
+  margin: 10px auto;
+}
+
+.contact-li {
+  margin-top: 10px;
+}
+
+.contact-icon {
+  font-size: 20px !important;
+  width: 25px !important;
+  text-align: left;
+}
+
+@media (max-width: 368px) {
+  .container-restricted {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 328px) {
+  h2 {
+    font-size: 3.4rem;
   }
 }

@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Header extends Component {
+export default class Header extends React.Component {
   static defaultProps = {};
 
   static propTypes = {};
 
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+  state = {};
 
   render() {
     return (
@@ -26,7 +23,7 @@ export default class Header extends Component {
             <ul className="navbar-list">
               <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="http://blog.tylerbuchea.com"
                 >
@@ -36,7 +33,7 @@ export default class Header extends Component {
 
               <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://github.com/tylerbuchea"
                 >
@@ -46,7 +43,7 @@ export default class Header extends Component {
 
               <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://www.youtube.com/channel/UCjGfHpKjVrp7MZ45hiwgD_A"
                 >
@@ -56,7 +53,7 @@ export default class Header extends Component {
 
               <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://anchor.fm/remote-guys-night"
                 >
@@ -66,7 +63,7 @@ export default class Header extends Component {
 
               <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://twitter.com/tylerbuchea"
                 >
@@ -74,29 +71,29 @@ export default class Header extends Component {
                 </a>
               </li>
 
-              <li className="navbar-item">
+              {/* <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://itunes.apple.com/us/developer/tyler-buchea/id1039566131"
                 >
                   <i className="fab fa-apple" />
                 </a>
-              </li>
+              </li> */}
 
-              <li className="navbar-item">
+              {/* <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://play.google.com/store/apps/developer?id=Tyler+Buchea+LLC"
                 >
                   <i className="fab fa-android" />
                 </a>
-              </li>
+              </li> */}
 
               <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://angel.co/tyler-buchea"
                 >
@@ -106,7 +103,7 @@ export default class Header extends Component {
 
               <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://stackoverflow.com/jobs/cv/employer/321320"
                 >
@@ -116,7 +113,7 @@ export default class Header extends Component {
 
               <li className="navbar-item">
                 <a
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://www.linkedin.com/in/tyler-buchea-b3a43376"
                 >
@@ -127,60 +124,33 @@ export default class Header extends Component {
           </nav>
         </header>
 
-        <section className="content row" role="main">
+        <section className="content row">
           <article className="content-item content-contact">
             <h2 className="title is-2">Let's Chat!</h2>
             <ul className="contact-list">
               <li>
-                <i className="fa fa-calendar-alt" />{' '}
+                <i className="fa fa-calendar-alt contact-icon" />{' '}
                 <a
                   href="https://calendly.com/tylerbuchea"
-                  target="_blank"
-                  onClick={() =>
-                    window.ga(
-                      'send',
-                      'event',
-                      'Contact Request',
-                      'Calendly',
-                      'Tried to schedule a calendly meeting'
-                    )
-                  }
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Schedule a meeting
                 </a>
               </li>
               <li>
-                <i className="fab fa-twitter" />{' '}
+                <i className="fab fa-twitter contact-icon" />{' '}
                 <a
                   href="https://twitter.com/tylerbuchea"
-                  target="_blank"
-                  onClick={() =>
-                    window.ga(
-                      'send',
-                      'event',
-                      'Contact Request',
-                      'Twitter',
-                      'Tried to contact me via Twitter'
-                    )
-                  }
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Tweet at me
                 </a>
               </li>
               <li>
-                <i className="fa fa-envelope" />{' '}
+                <i className="fa fa-envelope contact-icon" />{' '}
                 <a
                   href="mailto:tyler@buchea.com"
-                  target="_blank"
-                  onClick={() =>
-                    window.ga(
-                      'send',
-                      'event',
-                      'Contact Request',
-                      'Email',
-                      'Tried to contact me via email'
-                    )
-                  }
+                  target="_blank" rel="noopener noreferrer"
                 >
                   Send me an email
                 </a>
@@ -208,7 +178,7 @@ export default class Header extends Component {
                   I'm a full stack JavaScript developer living in Portland and
                   working remotely. I like React, React Native, GraphQL, and
                   NodeJS. Add me on Instagram:{' '}
-                  <a target="_blank" href="https://www.instagram.com/tylerbuchea/">
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tylerbuchea/">
                     @tylerbuchea
                   </a>
                   .
@@ -217,7 +187,7 @@ export default class Header extends Component {
               <img
                 src="img/new_avatar_square_optimized.jpg"
                 className="icon-avatar"
-                role="presentation"
+                alt="Tyler Buchea"
               />
             </div>
             <hr />

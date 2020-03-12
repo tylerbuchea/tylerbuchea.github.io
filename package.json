@@ -1,19 +1,18 @@
 {
   "name": "tylerbuchea",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "0.6.0"
-  },
   "dependencies": {
     "bulma": "^0.2.1",
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "gatsby": "^2.19.39",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "dev": "gatsby develop",
+    "build": "gatsby build"
   }
 }

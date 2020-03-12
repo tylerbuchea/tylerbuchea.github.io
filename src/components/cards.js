@@ -49,7 +49,7 @@ export default [
     "urlText": "firebaseapp.com"
   },
   {
-    "description": "Adjoy is the first ad network for games that allows both game developers and the advertiser, big or small, to live together in perfect harmony.",
+    "description": "The first ad network for games that allows developers and advertiser to live together in harmony.",
     "details": "I was the lead API designer for this project and played a pivotal role in bringing their MVP product to production. Adjoy is a well funded startup looking to innovate the game advertisement space by allowing developers to integrate ads into their games as achievements to unlock rather than as annoying banners that block game play.",
     "tags": ["Node", "Express", "Sails", "Mongo", "Heroku"],
     "heroImg": "img/portfolio-adjoy@2x.jpg",

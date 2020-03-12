@@ -1,23 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
 import 'bulma/css/bulma.css';
-import './index.css';
+
 import './skeleton.css';
+import './overrides.css';
 import './dark-theme.css';
 import cards from './cards';
 import Card from './Card';
 import Header from './Header';
 import Modal from './Modal';
 
-export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      cards,
-      modal: null,
-    };
+export default class Home extends React.Component {
+  state = {
+    cards,
+    modal: null,
   }
 
   closeModal = () => this.setState({ modal: null });
+
   openModal = card => this.setState({ modal: card });
 
   renderCards = cards => (
@@ -52,7 +51,9 @@ export default class App extends Component {
     const footer = this.renderFooter();
     return (
       <div>
-        <Modal close={this.closeModal} modal={this.state.modal} />
+        {!!this.state.modal &&
+          <Modal close={this.closeModal} modal={this.state.modal} />
+        }
         <Header />
         {cards}
         {footer}
