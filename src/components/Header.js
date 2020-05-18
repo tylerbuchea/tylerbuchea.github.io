@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default class Header extends React.Component {
   static defaultProps = {};
@@ -12,7 +12,7 @@ export default class Header extends React.Component {
       <div className="container-restricted">
         <header className="header row">
           <h1>
-            <a href="https://tylerbuchea.com">Tyler Buchea</a>{' '}
+            <a href="https://tylerbuchea.com">Tyler Buchea</a>{" "}
             <div>[ boo • shay ]</div>
           </h1>
           <h2>Software Engineer</h2>
@@ -23,7 +23,8 @@ export default class Header extends React.Component {
             <ul className="navbar-list">
               <li className="navbar-item">
                 <a
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="http://blog.tylerbuchea.com"
                 >
@@ -33,7 +34,8 @@ export default class Header extends React.Component {
 
               <li className="navbar-item">
                 <a
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://github.com/tylerbuchea"
                 >
@@ -43,7 +45,8 @@ export default class Header extends React.Component {
 
               <li className="navbar-item">
                 <a
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://www.youtube.com/channel/UCjGfHpKjVrp7MZ45hiwgD_A"
                 >
@@ -51,7 +54,7 @@ export default class Header extends React.Component {
                 </a>
               </li>
 
-              <li className="navbar-item">
+              {/* <li className="navbar-item">
                 <a
                   target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
@@ -59,11 +62,12 @@ export default class Header extends React.Component {
                 >
                   <i className="fa fa-podcast" />
                 </a>
-              </li>
+              </li> */}
 
               <li className="navbar-item">
                 <a
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://twitter.com/tylerbuchea"
                 >
@@ -93,7 +97,8 @@ export default class Header extends React.Component {
 
               <li className="navbar-item">
                 <a
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://angel.co/tyler-buchea"
                 >
@@ -101,7 +106,7 @@ export default class Header extends React.Component {
                 </a>
               </li>
 
-              <li className="navbar-item">
+              {/* <li className="navbar-item">
                 <a
                   target="_blank" rel="noopener noreferrer"
                   className="icon navbar-link"
@@ -109,11 +114,12 @@ export default class Header extends React.Component {
                 >
                   <i className="fab fa-stack-overflow" />
                 </a>
-              </li>
+              </li> */}
 
               <li className="navbar-item">
                 <a
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="icon navbar-link"
                   href="https://www.linkedin.com/in/tyler-buchea-b3a43376"
                 >
@@ -129,28 +135,31 @@ export default class Header extends React.Component {
             <h2 className="title is-2">Let's Chat!</h2>
             <ul className="contact-list">
               <li>
-                <i className="fa fa-calendar-alt contact-icon" />{' '}
+                <i className="fa fa-calendar-alt contact-icon" />{" "}
                 <a
                   href="https://calendly.com/tylerbuchea"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Schedule a meeting
                 </a>
               </li>
               <li>
-                <i className="fab fa-twitter contact-icon" />{' '}
+                <i className="fab fa-twitter contact-icon" />{" "}
                 <a
                   href="https://twitter.com/tylerbuchea"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Tweet at me
                 </a>
               </li>
               <li>
-                <i className="fa fa-envelope contact-icon" />{' '}
+                <i className="fa fa-envelope contact-icon" />{" "}
                 <a
                   href="mailto:tyler@buchea.com"
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Send me an email
                 </a>
@@ -165,8 +174,12 @@ export default class Header extends React.Component {
                 <p style={{ paddingRight: 5 }}>
                   I'm a full-stack JavaScript developer living in Portland and
                   working remotely. I like React, React Native, GraphQL, and
-                  NodeJS. Add me on Instagram{' '}
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tylerbuchea/">
+                  NodeJS. Add me on Instagram{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.instagram.com/tylerbuchea/"
+                  >
                     @tylerbuchea
                   </a>
                   .
