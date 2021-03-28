@@ -24,6 +24,7 @@ elif [ $script == "build" ] ; then
 
 elif [ $script == "ship" ] ; then
   yarn build
+  yarn export
   git push origin `git subtree split --prefix out 2021`:master --force\
 
 fi
