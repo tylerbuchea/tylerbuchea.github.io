@@ -1,18 +1,16 @@
 {
-  "name": "tylerbuchea",
-  "version": "2.0.0",
-  "private": true,
-  "dependencies": {
-    "bulma": "^0.2.1",
-    "gatsby": "^2.19.39",
-    "gatsby-plugin-react-helmet": "^3.1.23",
-    "prop-types": "^15.7.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-helmet": "^5.2.1"
-  },
+  "name": "tylerbuchea.com",
+  "version": "1.0.0",
   "scripts": {
-    "start": "gatsby develop",
-    "build": "gatsby build"
-  }
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "license": "MIT"
 }
