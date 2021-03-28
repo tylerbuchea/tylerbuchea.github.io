@@ -22,6 +22,11 @@ elif [ $script == "test" ] ; then
 elif [ $script == "build" ] ; then
   yarn build
 
+elif [ $script == "ship" ] ; then
+  yarn build
+  yarn export
+  git push origin master
+
 fi
 
 
