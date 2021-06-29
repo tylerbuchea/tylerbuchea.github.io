@@ -16,6 +16,9 @@ elif [ $script == "setup" ] ; then
 elif [ $script == "start" ] ; then
   yarn start
 
+elif [ $script == "dev" ] ; then
+  yarn dev
+
 elif [ $script == "test" ] ; then
   yarn test
 
