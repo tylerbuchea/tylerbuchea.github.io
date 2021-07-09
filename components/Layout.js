@@ -42,9 +42,14 @@ export default function Layout({ children }) {
         }
 
         :root {
-          --foreground: #000000;
-          --background: #ffffff;
-          --accent: #1ac4fc;
+          --background: #000000;
+          --midground-1: #222222;
+          --foreground: #ffffff;
+
+          --accent: #3c89d0;
+          --accent-active: #3c89d0aa;
+          --error: red;
+          --success: green;
         }
 
         @media (prefers-color-scheme: dark) {

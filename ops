@@ -19,6 +19,10 @@ elif [ $script == "start" ] ; then
 elif [ $script == "dev" ] ; then
   yarn dev
 
+elif [ $script == "export" ] ; then
+  yarn build
+  yarn export
+
 elif [ $script == "test" ] ; then
   yarn test
 
